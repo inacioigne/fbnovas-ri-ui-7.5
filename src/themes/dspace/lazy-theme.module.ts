@@ -61,6 +61,9 @@ import { SharedBrowseByModule } from '../../app/shared/browse-by/shared-browse-b
 import { ItemVersionsModule } from '../../app/item-page/versions/item-versions.module';
 import { ItemSharedModule } from 'src/app/item-page/item-shared.module';
 
+// ADICIONADO
+// import { HomePageComponent } from './app/home-page/home-page.component';
+
 const DECLARATIONS = [
 ];
 
@@ -117,6 +120,7 @@ const DECLARATIONS = [
     FormsModule,
     ResourcePoliciesModule,
     ComcolModule,
+    // HomePageComponent
   ],
   declarations: DECLARATIONS,
 })
